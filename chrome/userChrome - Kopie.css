@@ -1,0 +1,55 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/*Vertical Tabs*/
+@import url(window_control_placeholder_support.css);
+@import url(hide_tabs_toolbar.css);
+@import url(userChrome-hover.css);
+
+
+/* Send Page / Link / Tab to Device + top separator */
+#context-sendpagetodevice, #context-sep-sendpagetodevice,
+#context-sendlinktodevice, #context-sep-sendlinktodevice,
+#context_sendTabToDevice, #context_sendTabToDevice_separator {
+	display: none !important; 
+}
+
+/* Open Link in New Window */
+#context-openlink {
+	display: none !important; 
+}
+
+/* View Background Image */
+#context-viewbgimage, #context-sep-viewbgimage {
+	display: none !important; 
+}
+
+/* Save Page as */
+#context-savepage {
+	display: none !important; 
+}
+
+/* Save Page / Link to Pocket as */
+#context-pocket,
+#context-linktopocket {
+	display: none !important; 
+}
+
+/* Take a Screenshot */
+#screenshots_mozilla_org-menuitem-_create-screenshot, #screenshots_mozilla_org_create-screenshot {
+	display: none !important; 
+}
+
+/* Inspect Element separator  */
+#inspect-separator {
+	display: none !important; 
+}
+
+/* Move "Inspect Element" down the menu */
+#context-inspect {
+	-moz-box-ordinal-group: 20 !important; 
+}
+
+/* Add-on: KeeFox */
+/*[id^="keefox_chris_tomlinson_"] {
+	display: none !important; 
+}*/
